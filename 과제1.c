@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char *str1[4] = {"Korea", "Seoul", "Mapo", "152¹øÁö 2 / 3"};
+	char *str1[4] = {"Korea", "Seoul", "Mapo", "152ë²ˆì§€ 2 / 3"};
 	printf("%s\n", str1[0]);
 	printf("%s\n", str1[1]);
 	printf("%s\n", str1[2]);
