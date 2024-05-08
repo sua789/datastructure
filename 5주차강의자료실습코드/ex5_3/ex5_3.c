@@ -7,9 +7,9 @@ int main(void) {
 	printf("%s", express);
 
 	if (testPair(express) == 1)
-		printf("\n\n¼ö½ÄÀÇ °ıÈ£°¡ ¸Â°Ô »ç¿ëµÇ¾ú½À´Ï´Ù!\n");
+		printf("\n\nìˆ˜ì‹ì˜ ê´„í˜¸ê°€ ë§ê²Œ ì‚¬ìš©ë˜ì—ˆìŠµë‹ˆë‹¤!\n");
 	else
-		printf("\n\n¼ö½ÄÀÇ °ıÈ£°¡ Æ²·È½À´Ï´Ù!\n");
+		printf("\n\nìˆ˜ì‹ì˜ ê´„í˜¸ê°€ í‹€ë ¸ìŠµë‹ˆë‹¤!\n");
 
 	getchar();  return 0;
 }
