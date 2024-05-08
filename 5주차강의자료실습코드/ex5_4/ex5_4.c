@@ -5,10 +5,10 @@
 int main(void) {
 	int result;
 	char* express = "35*62/-";
-	printf("ÈÄÀ§ Ç¥±â½Ä : %s", express);
+	printf("ÃˆÃ„Ã€Â§ Ã‡Â¥Â±Ã¢Â½Ã„ : %s", express);
 
 	result = evalPostfix(express);
-	printf("\n\n¿¬»ê °á°ú => %d\n", result);
+	printf("\n\nÂ¿Â¬Â»Ãª Â°Ã¡Â°Ãº => %d\n", result);
 
 	getchar();  return 0;
 }
