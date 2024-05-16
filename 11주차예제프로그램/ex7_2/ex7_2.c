@@ -15,11 +15,11 @@ int main(void) {
 	treeNode* F1 = makeRootNode(0, F2, F3);
 
 	FolderSize = 0;
-	printf("\n\n C:\\ÀÇ ¿ë·® : %d M \n", postorder_FolderSize(F2));
+	printf("\n\n C:\\ì˜ ìš©ëŸ‰ : %d M \n", postorder_FolderSize(F2));
 	FolderSize = 0;
-	printf("\n\n D:\\ÀÇ ¿ë·® : %d M \n", postorder_FolderSize(F3));
+	printf("\n\n D:\\ì˜ ìš©ëŸ‰ : %d M \n", postorder_FolderSize(F3));
 	FolderSize = 0;
-	printf("\n\n ³» ÄÄÇ»ÅÍÀÇ ÀüÃ¼ ¿ë·® : %d M \n", postorder_FolderSize(F1));
+	printf("\n\n ë‚´ ì»´í“¨í„°ì˜ ì „ì²´ ìš©ëŸ‰ : %d M \n", postorder_FolderSize(F1));
 
 	getchar();  return 0;
 }
