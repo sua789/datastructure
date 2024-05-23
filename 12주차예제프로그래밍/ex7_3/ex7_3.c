@@ -2,8 +2,6 @@
 #include "threadBT.h"
 //조사식: n7,n6,n5,n4,n3,n2,n1,q,p 넣고 디버깅해보기. 처음에는 다 연결이 안되어 있음.
 //기말고사 6월 11일 화. 오전 10시.
-//디버깅할때 다른 곳으로 갈려면 f12 아니면 f11 눌러볼것.
-//시험범위는 아마 정렬까지.
 int main(void) {
 	treeThNode* n7 = makeRootThNode('D', NULL, NULL, 0);
 	treeThNode* n6 = makeRootThNode('C', NULL, NULL, 1);
