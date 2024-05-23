@@ -25,7 +25,7 @@ int main(void) {
 		menu();
 		scanf(" %c", &choice);
 
-		switch (choice - 'O') {
+		switch (choice - '0') {
 		case 1: printf("\t[이진 트리 출력]  ");
 			displayInorder(root); printf("\n");
 			break;
