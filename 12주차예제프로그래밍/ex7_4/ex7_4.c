@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "bst.h"
-//Á¶»ç½Ä¿¡ root,key,p->key,p->left,p->right
+//ì¡°ì‚¬ì‹ì— root,key,p->key,p->left,p->right
 void menu(void);
 
 int main(void) {
@@ -26,31 +26,31 @@ int main(void) {
 		scanf(" %c", &choice);
 
 		switch (choice - 'O') {
-		case 1: printf("\t[ÀÌÁø Æ®¸® Ãâ·Â]  ");
+		case 1: printf("\t[ì´ì§„ íŠ¸ë¦¬ ì¶œë ¥]  ");
 			displayInorder(root); printf("\n");
 			break;
 
-		case 2: printf("»ðÀÔÇÒ ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		case 2: printf("ì‚½ìž…í•  ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 			scanf(" %c", &key);
 			insertBSTNode(root, key);
 			break;
 
-		case 3: printf("»èÁ¦ÇÒ ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		case 3: printf("ì‚­ì œí•  ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 			scanf(" %c", &key);
 			deleteBSTNode(root, key);
 			break;
 
-		case 4: printf("Ã£À» ¹®ÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		case 4: printf("ì°¾ì„ ë¬¸ìžë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 			scanf(" %c", &key);
 			foundedNode = searchBST(root, key);
 			if (foundedNode != NULL)
-				printf("\n %c¸¦ Ã£¾Ò½À´Ï´Ù! \n", foundedNode->key);
-			else printf("\n ¹®ÀÚ¸¦ Ã£Áö ¸øÇß½À´Ï´Ù. \n");
+				printf("\n %cë¥¼ ì°¾ì•˜ìŠµë‹ˆë‹¤! \n", foundedNode->key);
+			else printf("\n ë¬¸ìžë¥¼ ì°¾ì§€ ëª»í–ˆìŠµë‹ˆë‹¤. \n");
 			break;
 
 		case 5:    return 0;
 
-		default: printf("¾ø´Â ¸Þ´ºÀÔ´Ï´Ù. ¸Þ´º¸¦ ´Ù½Ã ¼±ÅÃÇÏ¼¼¿ä! \n");
+		default: printf("ì—†ëŠ” ë©”ë‰´ìž…ë‹ˆë‹¤. ë©”ë‰´ë¥¼ ë‹¤ì‹œ ì„ íƒí•˜ì„¸ìš”! \n");
 			break;
 		}
 	}
@@ -58,11 +58,11 @@ int main(void) {
 
 void menu(void) {
 	printf("*----------------------------*");
-	printf("\n\t1: Æ®¸® Ãâ·Â");
-	printf("\n\t2: ¹®ÀÚ »ðÀÔ");
-	printf("\n\t3: ¹®ÀÚ »èÁ¦");
-	printf("\n\t4: ¹®ÀÚ °Ë»ö");
-	printf("\n\t5: Á¾·á");
+	printf("\n\t1: íŠ¸ë¦¬ ì¶œë ¥");
+	printf("\n\t2: ë¬¸ìž ì‚½ìž…");
+	printf("\n\t3: ë¬¸ìž ì‚­ì œ");
+	printf("\n\t4: ë¬¸ìž ê²€ìƒ‰");
+	printf("\n\t5: ì¢…ë£Œ");
 	printf("\n*----------------------------*");
-	printf("\n¸Þ´ºÀÔ·Â >> ");
+	printf("\në©”ë‰´ìž…ë ¥ >> ");
 }
