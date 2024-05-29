@@ -50,16 +50,16 @@ int main(void) {
 	insertEdge(G4, 1, 2);
 	insertEdge(G4, 1, 0);
 
-	printf("\n G1ÀÇ ÀÎÁ¢ ¸®½ºÆ®");
+	printf("\n G1ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸");
 	print_adjList(G1);
 
-	printf("\n\n G2ÀÇ ÀÎÁ¢ ¸®½ºÆ®");
+	printf("\n\n G2ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸");
 	print_adjList(G2);
 
-	printf("\n\n G3ÀÇ ÀÎÁ¢ ¸®½ºÆ®");
+	printf("\n\n G3ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸");
 	print_adjList(G3);
 
-	printf("\n\n G4ÀÇ ÀÎÁ¢ ¸®½ºÆ®");
+	printf("\n\n G4ì˜ ì¸ì ‘ ë¦¬ìŠ¤íŠ¸");
 	print_adjList(G4);
 
 	getchar();  return 0;
