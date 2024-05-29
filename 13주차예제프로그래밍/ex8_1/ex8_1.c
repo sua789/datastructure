@@ -51,16 +51,16 @@ int main(void) {
 	insertEdge(G4, 1, 0);
 
 
-	printf("\n G1ÀÇ ÀÎÁ¢ Çà·Ä: ");
+	printf("\n G1ì˜ ì¸ì ‘ í–‰ë ¬: ");
 	print_adjMatrix(G1);
 
-	printf("\n\n G2ÀÇ ÀÎÁ¢ Çà·Ä: ");
+	printf("\n\n G2ì˜ ì¸ì ‘ í–‰ë ¬: ");
 	print_adjMatrix(G2);
 
-	printf("\n\n G3ÀÇ ÀÎÁ¢ Çà·Ä: ");
+	printf("\n\n G3ì˜ ì¸ì ‘ í–‰ë ¬: ");
 	print_adjMatrix(G3);
 
-	printf("\n\n G4ÀÇ ÀÎÁ¢ Çà·Ä: ");
+	printf("\n\n G4ì˜ ì¸ì ‘ í–‰ë ¬: ");
 	print_adjMatrix(G4);
 
 	getchar(); return 0;
