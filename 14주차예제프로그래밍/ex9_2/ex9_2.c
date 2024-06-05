@@ -1,13 +1,13 @@
 #include <stdio.h>
 void bubbleSort(int a[], int size);
-//list ,size,j<i,a[j] > a[j + 1],temp, a[0],a[1]Ãß°¡
+//list ,size,j<i,a[j] > a[j + 1],temp, a[0],a[1]ì¶”ê°€
 int main(void) {
-	int i, list[8] = { 69,10,30,2,16,8,31,22 };  //Á¤·ÄÇÒ ¿ø¼Ò
+	int i, list[8] = { 69,10,30,2,16,8,31,22 };  //ì •ë ¬í•  ì›ì†Œ
 	int size = sizeof(list) / sizeof(list[0]);
-	printf("\nÁ¤·ÄÇÒ ¿ø¼Ò: ");
+	printf("\nì •ë ¬í•  ì›ì†Œ: ");
 	for (i = 0; i < size; i++)
 		printf("%d ", list[i]);
-	printf("\n\n<<<<<<<<< ¹öºí Á¤·Ä ¼öÇà >>>>>>>>>>>>\n");
+	printf("\n\n<<<<<<<<< ë²„ë¸” ì •ë ¬ ìˆ˜í–‰ >>>>>>>>>>>>\n");
 	bubbleSort(list, size);
 
 	getchar(); return 0;
