@@ -2,12 +2,12 @@
 void shellSort(int a[], int size);
 
 int main(void) {
-	int list[8] = { 69,10,30,2,16,8,31,22 };  //Á¤·ÄÇÒ ¿ø¼Ò
+	int list[8] = { 69,10,30,2,16,8,31,22 };  //ì •ë ¬í•  ì›ì†Œ
 	int size = sizeof(list) / sizeof(list[0]);
-	printf("\nÁ¤·ÄÇÒ ¿ø¼Ò: ");
+	printf("\nì •ë ¬í•  ì›ì†Œ: ");
 	for (int i = 0; i < size; i++)
 		printf("%d ", list[i]);
-	printf("\n\n<<<<<<<<<< ¼Ğ Á¤·Ä ¼öÇà >>>>>>>>>>\n");
+	printf("\n\n<<<<<<<<<< ì…¸ ì •ë ¬ ìˆ˜í–‰ >>>>>>>>>>\n");
 	shellSort(list, size);
 
 	getchar(); return 0;
